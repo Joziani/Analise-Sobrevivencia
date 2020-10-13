@@ -1,0 +1,196 @@
+/* Atualizar a cor do menu sanduíche - atualizar 'background-color' */
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff;
+    background-color: #233646;
+    border-radius: 5px;
+    padding: 7px 13px 5px 13px;
+    margin: 9px;
+}
+
+/* Atualizar a cor do menu sanduíche - ao passar o mouse - atualizar 'background' */
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background: #1b967b;
+    color: #fff;
+}
+
+/* Atualizar a cor de fundo da barra onde fica a logo - atualizar 'background' */
+.skin-blue .main-header .logo {
+    background: #233646;
+}
+
+/* Atualizar a cor de fundo da barra onde fica a logo - ao passar o mouse em cima - atualizar 'background' */
+.skin-blue .main-header .logo:hover {
+    background: #1E2733;
+}
+
+
+
+.sidebar-menu {
+    margin-top: 0px;
+}
+
+.sidebar-menu .treeview-menu {
+    padding-left: 0px;
+    border-left: 5px solid #233646;
+}
+
+/* Atualizar a cor de fundo do link do menu - ao passar o mouse em cima - atualizar 'background' */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover {
+  background: #233646;
+  border-radius: 0;
+  color: #FFF;
+  border: none;
+}
+
+/* Atualizar a cor de fundo do link do menu - que for clicado - atualizar  'background' */
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+  background: #233646;
+  border-radius: 0;
+  color: #FFF;
+  border: none;
+}
+
+/* Atualizar a cor da barra do menu - Top - atualizar 'background' */
+.skin-blue .main-header .navbar {
+    background: #fff;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+/***************************************/
+/***************************************/
+
+
+.dataTables_scrollHead {
+    background-color: #1E2733;
+    color: #000;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.dt-buttons > button.dt-button {
+    color: #FFF;
+    border: #233646;
+    background: #233646;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.dt-buttons > button.dt-button:hover {
+    color: #000;
+    border: #0089b6;
+    background: #0089b6;
+}
+
+li.btn-upload-data.dropdown {
+    width: 100px;
+    padding: 3px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #005FAA;
+    border-radius: 50px;
+    margin: 10px;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+li.btn-upload-data.dropdown > i {
+    color: #FFF;
+}
+
+li.btn-upload-data.dropdown:hover {
+    color: #D0DDE6;
+    box-shadow: 1px 1px #02467a;
+}
+
+h3.control-sidebar-heading {
+    display: none;
+}
+
+text.highcharts-title > tspan {
+    font-size: 15px;
+    color: #5e5e5e !important;
+    font-weight: 600;
+}
+
+text.highcharts-title {
+  fill: #5e5e5e !important;
+}
+
+/********/
+
+ul.nav.nav-tabs.nav-justified.control-sidebar-tabs {
+    display: none;
+}
+
+aside.control-sidebar.control-sidebar-light {
+    width: 320px;
+}
+
+/******/
+
+
+.select-box {
+  margin-top: -28px;
+}
+
+.box-header .box-title {
+    font-size: 13px;
+    padding: 8px;
+    font-weight: bold!important;
+    color: #000 !important;
+    margin-bottom: 6px;
+}
+
+
+
+.box-dash {
+    height: 125px;
+    background: #E6EAEF;
+    color: #7e6161;
+    margin: 30px 0px;
+}
+
+.small-box .icon-dash {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 50px;
+    color: #1E2733;
+}
+
+.icon-dash:hover {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 50px;
+    color: #1E2733;
+}
+
+
+.box.box-solid, .box {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 0px 5px #eee;
+    border-top: 2px solid #eee;
+}
+
+
+div.dt-buttons {
+    position: relative;
+    float: right;
+    margin-top: -50px;
+}
