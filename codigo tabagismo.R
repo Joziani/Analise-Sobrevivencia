@@ -726,7 +726,7 @@ st30<-ggplot(stall) +
   geom_line(aes(x=tempos,y = St_E2_ID, color="St_E2_ID")) +
   geom_line(aes(x=tempos,y = St_E3_ID, color="St_E3_ID")) +
   geom_line(aes(x=tempos,y = St_E4_ID, color="St_E4_ID")) +
-  scale_colour_manual("Tratamentos",
+  scale_colour_manual("Situações",
                       labels = c("Combinação em tempo integral",
                                  "Adesivo",
                                  "Adesivo e Outros períodos",
