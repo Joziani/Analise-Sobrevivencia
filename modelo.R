@@ -108,7 +108,7 @@ modelo_server <- function(input, output, session) {
     
     colnames(coefs) <- c('Nomes',
                          'Betas', 
-                         'Razão de Risco', 
+                         'Risco Relativo', 
                          'E.P.(Betas)', 
                          'IC 95% (Razão de Risco)', 
                          'Valor-p')
