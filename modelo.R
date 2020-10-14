@@ -51,10 +51,10 @@ modelo_ui <- function(id) {
       'MODELO FINAL'
     ),
     fluidRow(
-      box(width = 7,
+      box(width = 9,
           title = 'coeficientes do modelo',
           DT::dataTableOutput(ns('coefmodel'))),
-      box(width = 5,
+      box(width = 3,
           h3('Formula'),
           h5('Modelo = exp(0.59*grppatchOnly - 0.03*age + 0.68* employmentother + 0.63*employmentpt)'))
     ),
