@@ -59,10 +59,10 @@ modelo_ui <- function(id) {
           h5('Modelo = exp(0.59*grppatchOnly - 0.03*age + 0.68* employmentother + 0.63*employmentpt)'))
     ),
     fluidRow(
-      box(width = 5,
+      box(width = 6,
           title = 'Teste de proporcionalidade',
           DT::dataTableOutput(ns('residuosmodel'))),
-      box(width = 7,
+      box(width = 6,
           title = 'Gráfico de análise de residual',
           imageOutput(ns('residuosgrafico'))),
     ),
